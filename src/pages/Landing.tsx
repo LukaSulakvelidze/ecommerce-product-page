@@ -27,6 +27,7 @@ const Landing = () => {
         deleteItem={() => {
           setQuantity(0);
           setCounter(0);
+          setShow(false);
         }}
         checkoutClick={() => setShow(false)}
         decreament={decreament}
