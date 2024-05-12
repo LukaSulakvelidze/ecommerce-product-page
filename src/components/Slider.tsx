@@ -1,5 +1,9 @@
 import { CSSProperties, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import nikeLand from "../assets/Nike-land.jpg";
+import nike_prof_right from "../assets/Nike-prof-right.jpg";
+import nike_prof_left from "../assets/Nike-prof-left.jpg";
+import nikeTop from "../assets/Nike-top.jpg";
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -27,16 +31,16 @@ export default function Slider() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <img src="public/Nike-land.jpg" />
+          <img src={nikeLand} alt="Product Image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/Nike-prof-right.jpg" />
+          <img src={nike_prof_right} alt="Product Image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/Nike-prof-left.jpg" />
+          <img src={nike_prof_left} alt="Product Image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/Nike-top.jpg" />
+          <img src={nikeTop} alt="Product Image" />
         </SwiperSlide>
       </Swiper>
 
@@ -50,16 +54,16 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="public/Nike-land.jpg" />
+          <img src={nikeLand} alt="Product Image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/Nike-prof-right.jpg" />
+          <img src={nike_prof_right} alt="Product Image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/Nike-prof-left.jpg" />
+          <img src={nike_prof_left} alt="Product Image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/Nike-top.jpg" />
+          <img src={nikeTop} alt="Product Image" />
         </SwiperSlide>
       </Swiper>
     </div>

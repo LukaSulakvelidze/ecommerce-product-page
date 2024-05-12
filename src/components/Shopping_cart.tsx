@@ -1,4 +1,4 @@
-import nike from "../../public/Nike-land.jpg";
+import nike from "../assets/Nike-land.jpg";
 import { FaTrashAlt } from "react-icons/fa";
 import { Shopping_cart_props } from "../interfaces";
 const Shopping_cart = ({
@@ -17,7 +17,11 @@ const Shopping_cart = ({
         {quantity ? (
           <div className="flex flex-col w-full gap-6 px-6">
             <div className="flex items-center justify-between">
-              <img className="w-[50px] rounded " src={nike} alt="" />
+              <img
+                className="w-[50px] rounded "
+                src={nike}
+                alt="Product Image"
+              />
               <div>
                 <p className="font-normall leading-6 text-[#69787d] ">
                   Fall Limited Edition Sneakers
