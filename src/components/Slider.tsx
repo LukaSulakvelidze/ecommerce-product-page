@@ -47,7 +47,7 @@ export default function Slider() {
       </Swiper>
 
       <Swiper
-        onSwiper={(swiper: any) => setThumbsSwiper(swiper)}
+        onSwiper={(swiper) => setThumbsSwiper(swiper)}
         spaceBetween={10}
         slidesPerView={4}
         freeMode={true}
